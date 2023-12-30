@@ -9,6 +9,7 @@ body {
   outline: none;
 }
 
+/*Video*/
 .video-wrapper{
   overflow: hidden;
   height: 100vh;
@@ -16,7 +17,6 @@ body {
 video {
   width: 100vw;
 }
-
 .overlay {
   position: absolute;
   top: 0;
@@ -26,6 +26,7 @@ video {
   background-color: rgba(0, 0, 0, .7);
 }
 
+/*Scritta princale e tasto interattivo*/
 header {
 	position: absolute;
   z-index: 2;
@@ -57,27 +58,26 @@ header img {
   height: 2rem;
 }
 
-
+/*Home*/
 .intro {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-top: 3rem;
 }
-
 .titolo {
   font-size: 4em;
   margin: 0;
   font-weight: 900;
   color: black;
 }
-
 .intro p {
   margin-top: 1rem;
   font-size: 1.125rem;
   font-weight: 300;
 }
 
+ /*Lista città*/
 .parteCentrale {
   margin-top: 3rem;
 	display: flex;
@@ -117,6 +117,7 @@ article:hover {
 	box-shadow: 5px 2px 20px 0px rgba(0,0,0,0.6);
 }
 
+/*Separatore*/
 .separatore {
   height: 3px;
   width: 90%;
@@ -125,13 +126,100 @@ article:hover {
   margin: 5rem auto;
 }
 
+/*Parte finale*/
 footer {
 	padding: 0 2rem 2rem 2rem;
 }
-
 .documentazione {
   margin-top: 5rem;
 	text-align: center;
   font-weight: 300;
   font-size: .875rem;
+}
+
+/*Mobile S*/
+@media only screen and (max-width: 320px) {
+
+  video {
+    height: 100%;
+    width: auto;
+  }
+  header h1 {
+    font-size: 1.5rem;
+  }
+  .intro {
+    text-align: center;
+  }
+  .titolo {
+    font-size: 1.5rem;
+  }
+  .intro p {
+    font-size: 0.9rem;
+  }
+  .riga {
+    flex-flow: wrap;
+  }
+}
+
+/*Mobile M*/
+@media only screen and (min-width: 321px) and (max-width: 424px) {
+
+  video {
+    height: 100%;
+    width: auto;
+  }
+  header h1 {
+    font-size: 2rem;
+  }
+  .intro {
+    text-align: center;
+  }
+  .titolo {
+    font-size: 2rem;
+  }
+  .intro p {
+    font-size: 1.125rem;
+  }
+  .riga {
+    flex-flow: wrap;
+  }
+}
+
+/*Mobile L*/
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+
+  video {
+    height: 100%;
+    width: auto;
+  }
+  header h1 {
+    font-size: 2rem;
+  }
+  .intro {
+    text-align: center;
+  }
+  .titolo {
+    font-size: 2rem;
+  }
+  .intro p {
+    font-size: 1.125rem;
+  }
+  .riga {
+    flex-flow: wrap;
+  }
+}
+
+/*Tablet*/
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+  video {
+    height: 100%;
+    width: auto;
+  }
+  header h1 {
+    font-size: 3rem;
+  }
+  .riga {
+    overflow: hidden;
+  }
 }

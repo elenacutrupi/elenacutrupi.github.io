@@ -7,6 +7,7 @@ body {
   padding: 0;
 }
 
+/*Titolo grande centrale*/
 h1 {
 	font-size: 4em;
 	text-align: center;
@@ -15,6 +16,8 @@ h1 {
   margin: 3rem 0;
   color: white;
 }
+
+/*Sezione dei ticket*/
 section.ticket {
 	display: flex;
 	flex-direction: column;
@@ -31,25 +34,22 @@ section.ticket {
 	border-radius: 15px;
 	transition: .5s;
 }
-
 .colonna-sinistra, .colonna-destra {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 }
-
 .riga {
   display: flex;
   align-items: center;
   margin-top: 1rem;
 }
-
 .nome {
   margin: 0;
   font-weight: 700;
 }
-
 .ticketone {
+  text-align: center;
   padding: .4rem .7rem;
   border-radius: 10px;
   background-color: #0084bc;
@@ -57,28 +57,25 @@ section.ticket {
   font-weight: 600;
   box-shadow: 4px 3px 5px -1px rgba(0,0,0,0.2);
 }
-
 .spotify {
   font-weight: 300;
   color: black;
 }
-
 .evento p, .evento a {
 	margin: 0 0 0 .5rem;
 }
-
 a {
 	text-decoration: none;
 }
 .spotify:hover {
 	text-decoration: underline;
 }
-
 .icona {
 	width: 1rem;
 	height: 1rem;
 }
 
+ /*Bottone per tornare indietro*/
 .home {
   position: absolute;
   top: 2.5rem;
@@ -95,6 +92,7 @@ a {
   margin-left: .5rem;
 }
 
+ /*Overlay effetto scuro sul background*/
 .overlay {
   position: fixed;
   top: 0;
@@ -103,4 +101,102 @@ a {
   height: 100%;
   background-color: rgba(0, 0, 0, .4);
   z-index: -1;
+}
+
+/*Mobile S*/
+@media only screen and (max-width: 320px) { 
+  #titolo {
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+  }
+  .home {
+    top: 1rem;
+    left: 1rem;
+  }
+  .home a {
+    font-size: 0.7rem;
+  }
+  h1 {
+    font-size: 2.8rem;
+  }
+  .evento {
+    width: 85%;
+  }
+  .nome {
+    font-size: 1.2rem;
+  }
+  .evento p, .evento a {
+    font-size: 0.6rem;
+  }
+  .colonna-destra {
+    padding-left: 1.5rem;
+  }
+}
+
+/*Mobile M*/
+@media only screen and (min-width: 321px) and (max-width: 424px) {
+  #titolo {
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+  }
+  .home {
+    top: 1rem;
+    left: 1rem;
+  }
+  .home a {
+    font-size: 0.7rem;
+  }
+  h1 {
+    font-size: 2.8rem;
+  }
+  .evento {
+    width: 85%;
+  }
+  .nome {
+    font-size: 1.2rem;
+  }
+  .evento p, .evento a {
+    font-size: 0.6rem;
+  }
+  .colonna-destra {
+    padding-left: 1.5rem;
+  }
+}
+
+/*Mobile L*/
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+  #titolo {
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+  }
+  .home {
+    top: 1.5rem;
+    left: 1.5rem;
+  }
+  .home a {
+    font-size: 0.7rem;
+  }
+  h1 {
+    font-size: 2.8rem;
+  }
+  .evento {
+    width: 85%;
+  }
+  .nome {
+    font-size: 1.2rem;
+  }
+  .evento p, .evento a {
+    font-size: 0.8rem;
+  }
+  .colonna-destra {
+    padding-left: 1.5rem;
+  }
+}
+
+/*Tablet*/
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .home {
+    top: 1.5rem;
+    left: 1.5rem;
+  }
 }
