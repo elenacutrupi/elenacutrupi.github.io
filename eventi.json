@@ -1,0 +1,210 @@
+{
+	"bologna":[
+		{
+			"titolo":"Gazzelle",
+			"luogo":"Unipol Arena",
+			"data":"Domenica 24 Marzo 2024",
+			"ore":"21:00",
+			"ticketone":"https://www.ticketone.it/event/gazzelle-tour-2024-unipol-arena-17197776/",
+			"spotify":"https://open.spotify.com/artist/7KFOc3T4Xo8DVZt4PWw2qN"
+		},
+		{
+			"titolo":"Peggy Gou",
+			"luogo":"Unipol Arena",
+			"data":"Sabato 9 Marzo 2024",
+			"ore":"19:00",
+			"ticketone":"https://www.ticketone.it/event/peggy-gou-unipol-arena-18038998/",
+			"spotify":"https://open.spotify.com/artist/2mLA48B366zkELXYx7hcDN"
+		},
+		{
+			"titolo":"Annalisa",
+			"luogo":"Unipol Arena",
+			"data":"Mercoledi 17 Aprile 2024",
+			"ore":"21:00",
+			"ticketone":"https://www.ticketone.it/event/annalisa-tutti-nel-vortice-palasport-unipol-arena-17819617/",
+			"spotify":"https://open.spotify.com/artist/0EqkKYDK9EkKY5N7zU3FPv"
+		}
+	],
+	"roma":[
+		{
+			"titolo":"Gazzelle",
+			"luogo":"Palazzo dello sport",
+			"data":"Mercoledi 3 Aprile 2024",
+			"ore":"21:00",
+			"ticketone":"https://www.ticketone.it/event/gazzelle-tour-2024-palazzo-dello-sport-17197773/",
+			"spotify":"https://open.spotify.com/artist/7KFOc3T4Xo8DVZt4PWw2qN"
+		},
+		{
+			"titolo":"Gemitaiz",
+			"luogo":"Rock in Roma",
+			"data":"Venerdi 14 Giugno 2024",
+			"ore":"21:45",
+			"ticketone":"https://www.ticketone.it/event/gemitaiz-the-qvc-experience-tour-ippodromo-le-capannelle-18076454/",
+			"spotify":"https://open.spotify.com/artist/0lqmbCU0i5eqWeKkyNobbD"
+		},
+		{
+			"titolo":"Calcutta",
+			"luogo":"Rock in Roma",
+			"data":"Domenica 30 Giugno 2024",
+			"ore":"21:45",
+			"ticketone":"https://www.ticketone.it/event/calcutta-relax-tour-estivo-2024-ippodromo-le-capannelle-17869466/",
+			"spotify":"https://open.spotify.com/artist/582KhTHEVOONNQLmQ5612r"
+		}
+	],
+	"milano":[
+		{
+			"titolo":"Annalisa",
+			"luogo":"Assago, Mediolanum Forum",
+			"data":"Mercoledi 10 Aprile 2024",
+			"ore":"21:00",
+			"ticketone":"https://www.ticketone.it/event/annalisa-tutti-nel-vortice-palasport-mediolanum-forum-17227169/",
+			"spotify":"https://open.spotify.com/artist/0EqkKYDK9EkKY5N7zU3FPv"
+		},
+		{
+			"titolo":"Green Day",
+			"luogo":"Ippodromo SNAI La Maura",
+			"data":"Domenica 16 Giugno 2024",
+			"ore":"17:00",
+			"ticketone":"https://www.ticketone.it/event/green-day-i-days-2024-ippodromo-snai-la-maura-17883773/",
+			"spotify":"https://open.spotify.com/artist/7oPftvlwr6VrsViSDV7fJY"
+		},
+		{
+			"titolo":"Tedua",
+			"luogo":"Ippodromo SNAI San Siro",
+			"data":"Sabato 29 Giugno 2024",
+			"ore":"17:00",
+			"ticketone":"https://www.ticketone.it/event/tedua-i-days-2024-ippodromo-snai-san-siro-17761489/",
+			"spotify":"https://open.spotify.com/artist/1AgAVqo74e2q4FVvg0xpT7"
+		}
+	],
+	"firenze":[
+		{
+			"titolo":"Gazzelle",
+			"luogo":"Nelson Mandela Forum",
+			"data":"Giovedi 21 Marzo 2024",
+			"ore":"21:00",
+			"ticketone":"https://www.ticketone.it/event/gazzelle-tour-2024-nelson-mandela-forum-17197655/",
+			"spotify":"https://open.spotify.com/artist/7KFOc3T4Xo8DVZt4PWw2qN"
+		},
+		{
+			"titolo":"Pinguini Tattici Nucleari",
+			"luogo":"Nelson Mandela Forum",
+			"data":"Giovedi 2 Maggio 2024",
+			"ore":"21:00",
+			"ticketone":"https://www.ticketone.it/event/pinguini-tattici-nucleari-palasport-2024-nelson-mandela-forum-17526367/",
+			"spotify":"https://open.spotify.com/artist/6RdcIWVKYYzNzjQRd3oyHS"
+		},
+		{
+			"titolo":"Levante",
+			"luogo":"Teatro Verdi",
+			"data":"Lunedi 18 Marzo 2024",
+			"ore":"20:45",
+			"ticketone":"https://www.ticketone.it/event/levante-teatri-2024-teatro-verdi-17685648/",
+			"spotify":"https://open.spotify.com/artist/5mTg1ztZByLRHsOEtwmT4G"
+		}
+	],
+	"padova":[
+		{
+			"titolo":"Gazzelle",
+			"luogo":"Arena Spettacoli",
+			"data":"Venerdi 8 Marzo 2024",
+			"ore":"21:30",
+			"ticketone":"https://www.ticketone.it/event/gazzelle-tour-2024-arena-spettacoli-fiera-di-padova-17197550/",
+			"spotify":"https://open.spotify.com/artist/7KFOc3T4Xo8DVZt4PWw2qN"
+		},
+		{
+			"titolo":"Ultimo",
+			"luogo":"Stadio Euganeo",
+			"data":"Sabato 6 Luglio 2024",
+			"ore":"21:00",
+			"ticketone":"https://www.ticketone.it/event/ultimo-stadi-2024-stadio-euganeo-17353820/",
+			"spotify":"https://open.spotify.com/artist/3hN3iJMbbBmqBSAMx5veDa"
+		},
+		{
+			"titolo":"Rose Villain",
+			"luogo":"Hall",
+			"data":"Venerdi 18 Ottobre 2024",
+			"ore":"21:00",
+			"ticketone":"https://www.ticketone.it/event/rose-villain-2024-hall-18046393/",
+			"spotify":"https://open.spotify.com/artist/2aya6KuqjXEhHBqYKsTPLs"
+		}
+	],
+	"torino":[
+		{
+			"titolo":"Gazzelle",
+			"luogo":"Pala Alpitour",
+			"data":"Domenica 7 Aprile 2024",
+			"ore":"21:00",
+			"ticketone":"https://www.ticketone.it/event/gazzelle-tour-2024-palaalpitour-17197775/",
+			"spotify":"https://open.spotify.com/artist/7KFOc3T4Xo8DVZt4PWw2qN"
+		},
+		{
+			"titolo":"Pinguini Tattici Nucleari",
+			"luogo":"Pala Alpitour",
+			"data":"Martedi 16 Aprile 2024",
+			"ore":"21:00",
+			"ticketone":"https://www.ticketone.it/event/pinguini-tattici-nucleari-palasport-2024-palaalpitour-17483420/",
+			"spotify":"https://open.spotify.com/artist/6RdcIWVKYYzNzjQRd3oyHS"
+		},
+		{
+			"titolo":"Laura Pausini",
+			"luogo":"Pala Alpitour",
+			"data":"Sabato 13 Gennaio 2024",
+			"ore":"21:00",
+			"ticketone":"https://www.ticketone.it/event/laura-pausini-palaalpitour-16856841/",
+			"spotify":"https://open.spotify.com/artist/2e4nwiX8ZCU09LGLOpeqTH"
+		}
+	],
+	"napoli":[
+		{
+			"titolo":"Rose Villain",
+			"luogo":"Casa della Musica-Federico I",
+			"data":"Venerdi 25 Ottobre 2024",
+			"ore":"21:00",
+			"ticketone":"https://www.ticketone.it/event/rose-villain-2024-casa-della-musica-federico-i-18046392/",
+			"spotify":"https://open.spotify.com/artist/2aya6KuqjXEhHBqYKsTPLs"
+		},
+		{
+			"titolo":"Geolier",
+			"luogo":"Stadio Diego Armando Maradona",
+			"data":"Domenica 23 Giugno 2024",
+			"ore":"21:00",
+			"ticketone":"https://www.ticketone.it/event/geolier-stadio-armando-maradona-17998052/",
+			"spotify":"https://open.spotify.com/artist/27LlKWxS3KXW7RRAxN5S8s"
+		},
+		{
+			"titolo":"Mannarino",
+			"luogo":"Teatro Augusteo",
+			"data":"Lunedi 17 Gennaio 2024",
+			"ore":"21:00",
+			"ticketone":"https://www.ticketone.it/event/mannarino-teatro-augusteo-17723344/",
+			"spotify":"https://open.spotify.com/artist/6C1PGrTsXqP3wo8kTRhrqm"
+		}
+	],
+	"catania":[
+		{
+			"titolo":"Tedua",
+			"luogo":"Villa Bellini",
+			"data":"Lunedi 22 Luglio 2024",
+			"ore":"21:00",
+			"ticketone":"https://www.ticketone.it/event/tedua-il-paradiso-il-tour-villa-bellini-17985683/",
+			"spotify":"https://open.spotify.com/artist/1AgAVqo74e2q4FVvg0xpT7"
+		},
+		{
+			"titolo":"Gemitaiz",
+			"luogo":"Villa Bellini",
+			"data":"Martedi 6 Agosto 2024",
+			"ore":"21:00",
+			"ticketone":"https://www.ticketone.it/event/gemitaiz-the-qvc-experience-tour-villa-bellini-18070490/",
+			"spotify":"https://open.spotify.com/artist/0lqmbCU0i5eqWeKkyNobbD"
+		},
+		{
+			"titolo":"Levante",
+			"luogo":"Teatro Metropolitan",
+			"data":"Martedi 9 Aprile 2024",
+			"ore":"21:00",
+			"ticketone":"https://www.ticketone.it/event/levante-teatri-2024-teatro-metropolitan-17692966/",
+			"spotify":"https://open.spotify.com/artist/5mTg1ztZByLRHsOEtwmT4G"
+		}
+	]
+}

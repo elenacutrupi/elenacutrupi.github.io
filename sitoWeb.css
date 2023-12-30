@@ -1,0 +1,137 @@
+*, html {
+  scroll-behavior: smooth;
+  user-select: none;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+  outline: none;
+}
+
+.video-wrapper{
+  overflow: hidden;
+  height: 100vh;
+}
+video {
+  width: 100vw;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .7);
+}
+
+header {
+	position: absolute;
+  z-index: 2;
+  width: 100%;
+  height: 70%;
+  left: 0;
+  top: 30%;
+}
+header h1 {
+  font-size: 4rem;
+  font-weight: 900;
+  color: ghostwhite;
+  text-align: center;
+}
+header a {
+  position: absolute;
+  bottom: 2rem;
+  left: calc(50% - 1.7rem);
+  width: 3.5rem;
+  height: 3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0084bc;
+  border-radius: 30px;
+}
+header img {
+  width: 2rem;
+  height: 2rem;
+}
+
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3rem;
+}
+
+.titolo {
+  font-size: 4em;
+  margin: 0;
+  font-weight: 900;
+  color: black;
+}
+
+.intro p {
+  margin-top: 1rem;
+  font-size: 1.125rem;
+  font-weight: 300;
+}
+
+.parteCentrale {
+  margin-top: 3rem;
+	display: flex;
+	flex-direction: column;
+}
+.riga {
+	display: flex;
+	justify-content: center;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+a article {
+	display: flex;
+	align-items: center;
+	box-shadow: 5px 2px 15px 0px rgba(0,0,0,0.27);
+	flex-direction: column;
+	width: 10rem;
+	height: 15rem;
+	overflow: hidden;
+	border-radius: 15px;
+	transition: .5s;
+	cursor: pointer;
+	margin: 1.25rem;
+}
+article figure {
+	margin: 0;
+	height: 15rem;
+	overflow: hidden;
+}
+article figcaption {
+	margin: 1rem;
+	text-align: center;
+}
+article:hover {
+	box-shadow: 5px 2px 20px 0px rgba(0,0,0,0.6);
+}
+
+.separatore {
+  height: 3px;
+  width: 90%;
+  border-radius: 10px;
+  background-color: #0084bc;
+  margin: 5rem auto;
+}
+
+footer {
+	padding: 0 2rem 2rem 2rem;
+}
+
+.documentazione {
+  margin-top: 5rem;
+	text-align: center;
+  font-weight: 300;
+  font-size: .875rem;
+}
