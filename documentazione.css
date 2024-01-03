@@ -1,0 +1,49 @@
+* {
+	font-family: 'Montserrat', sans-serif;
+	user-select: none;
+}
+h2 {
+	font-size: 2rem;
+	text-align: center;
+	font-weight: 900;
+	margin-bottom: 5rem;
+}
+h3 {
+	font-size: 1.5rem;
+}
+ul {
+	list-style-type: square;
+}
+ul li {
+	margin: 1rem;
+}
+li {
+	text-align: justify-all;
+}
+a {
+	color: #0084bc;
+	cursor: pointer;
+}
+.architetturaSito {
+	list-style-type: circle;
+}
+div {
+	display: flex;
+	flex-direction: row;
+	height: 50rem;
+}
+img {
+	margin: 2rem;
+}
+img:last-of-type {
+	height: 20rem;
+}
+
+/*Separatore*/
+.separatore {
+  height: 3px;
+  width: 90%;
+  border-radius: 10px;
+  background-color: #0084bc;
+  margin: 5rem auto;
+}
